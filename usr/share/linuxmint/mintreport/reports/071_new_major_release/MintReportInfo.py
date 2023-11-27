@@ -47,7 +47,7 @@ class Report(InfoReport):
     def get_descriptions(self):
         # Return the descriptions
         descriptions = []
-	rel_link_html = "<a href='%s'>%s</a>" % (self.rel_link, self.rel_link)
+        rel_link_html = "<a href='%s'>%s</a>" % (self.rel_link, self.rel_link)
         descriptions.append(_("Visit %s for more information about this upgrade.") % rel_link_html)
         return descriptions
 
